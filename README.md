@@ -137,7 +137,7 @@ Or alternatively:
 
 ```ruby
 epic_tragedy = {
-    montague: {}
+    montague: {},
     capulet: {}
    }
 ```
