@@ -14,7 +14,8 @@ You're 16 years old and back in high school English class. Luckily for us, our t
 But there's a Romeo and Juliet quiz our teacher has scheduled for us that we need to get ready for. We will definitely be required to answer some questions on the cast of characters and their attributes and relationships to one another. Let's map out that information:
 
 
-![](http://readme-pics.s3.amazonaws.com/hash_intro_shakespeare%20(2).png)
+![](http://i.imgur.com/JThWgbg.png)
+
 
 What we have here is a nested data structure. There are different levels or tiers of information. On the top tier, we have the family names. Beneath that we have key characters, and beneath that we have their attributes. We have an additional layer of the hero/heroine's friends because there are multiple friends. Now that we have a sense of the structure that our collection of information is taking, we're going to build a nested hash that displays it in the same nested way. Our end result will look like this:
 
@@ -320,4 +321,4 @@ puts epic_tragedy
 
 In `lib/bonus.rb` you'll see our completed `epic_tragedy hash`. We're coming to the end of the epic tragedy of Romeo and Juliet. At this point in the story, Romeo and Juliet are—as in every good tragedy—quite dead. Use the above method to change the status of our hero Romeo and our heroine Juliet from "alive" to "dead". These are bonus and if you're feeling comfortable with Hashes, feel free to move forward. Also, to enable these tests make sure to remove the `x` in front of the `it` block in spec/bonus_spec.rb.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/building-nested-hashes' title='Code Along Exercise: Building Nested Hashes'>Code Along Exercise: Building Nested Hashes</a> on Learn.co and start learning to code for free.</p>
+<p class='util--hide'>View <a href='https://learn.co/lessons/building-nested-hashes'>Building Nested Hashes Lab</a> on Learn.co and start learning to code for free.</p>
