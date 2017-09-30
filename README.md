@@ -203,6 +203,8 @@ The values of the `:hero_friends` and `:heroine_friends` keys currently point to
 
 Fill out these empty arrays with a series of hashes that will contain key/value pairs describing these friends.
 
+*Note if you reference the above diagram, the friends "Mercutio and Steven" are incorrectly associated with Romeo or Juliet, but sticking to the codealong will cause the test to pass*
+
 The hero's two friends are Benvolio and Mercutio. So, the `:hero_friends` array will contain two hashes. Each of these two hashes have the following three keys:
 
 * `:name`
@@ -321,3 +323,5 @@ puts epic_tragedy
 In `lib/bonus.rb` you'll see our completed `epic_tragedy hash`. We're coming to the end of the epic tragedy of Romeo and Juliet. At this point in the story, Romeo and Juliet are—as in every good tragedy—quite dead. Use the above method to change the status of our hero Romeo and our heroine Juliet from "alive" to "dead". These are bonus and if you're feeling comfortable with Hashes, feel free to move forward. Also, to enable these tests make sure to remove the `x` in front of the `it` block in spec/bonus_spec.rb.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/building-nested-hashes' title='Code Along Exercise: Building Nested Hashes'>Code Along Exercise: Building Nested Hashes</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/building-nested-hashes'>Building Nested Hashes Lab</a> on Learn.co and start learning to code for free.</p>
