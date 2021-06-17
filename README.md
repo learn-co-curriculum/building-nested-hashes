@@ -1,4 +1,4 @@
-# Code Along Exercise: Building Nested Hashes
+# Code Along Exercise: Building Nested Hashes!
 
 ## Objectives
 
@@ -8,7 +8,7 @@
 ## Code Along Challenge: Epic Tragedy
 
 You're 16 years old and back in high school English class. Luckily for us, our
-teacher is kind of lazy and we get to watch the *Romeo and Juliet* movie from
+teacher is kind of lazy and we get to watch the _Romeo and Juliet_ movie from
 the '90s starring Leonardo DiCaprio and Claire Danes.
 
 ![](http://readme-pics.s3.amazonaws.com/RomeoandJuliet5.jpg)
@@ -32,7 +32,7 @@ the same nested way. Our end result will look like this:
 
 epic_tragedy = {
   :montague => {
-    :patriarch => {  
+    :patriarch => {
       :name => "Lord Montague",
       :age => "53"
   },
@@ -89,13 +89,13 @@ epic_tragedy = {
 
 **Notes:**
 
-* You might notice that we are storing ages as strings. That is because the ages
+- You might notice that we are storing ages as strings. That is because the ages
   here are not numbers that we need to frequently do math with. If a hash value
   was a number that we needed to manipulate, then we would store it as an
   integer. For example, if it was the price of an item that we need to calculate
   the tax on, then the price would be stored as an integer. Otherwise, it is
   conventional to store information like a person's age as a string.
-* Remember that the `key: value` syntax is the same as the `:key => value`
+- Remember that the `key: value` syntax is the same as the `:key => value`
   syntax used above. Get ready to see them both used in different applications
   and sources.
 
@@ -113,7 +113,7 @@ In `lib/first_challenge.rb`, you're going to fill out the content of the
 family names, "Montague" and "Capulet". We've made them symbols above, because
 symbols make better hash keys than strings.
 
-* Set the `epic_tragedy` variable equal to a hash with two key/value pairs. The
+- Set the `epic_tragedy` variable equal to a hash with two key/value pairs. The
   keys should be symbols of the family names (`:montague` and `:capulet`) and
   the values should be empty hashes.
 
@@ -137,10 +137,10 @@ challenge.
 Fill out the empty hash that is the value of the `:montague` key. There are four
 keys in this hash:
 
-* `:patriarch`
-* `:matriarch`
-* `:hero`
-* `:hero_friends`
+- `:patriarch`
+- `:matriarch`
+- `:hero`
+- `:hero_friends`
 
 The first three of these keys point to a value of an empty hash. The fourth key
 `:hero_friends` has a value of an empty array.
@@ -148,10 +148,10 @@ The first three of these keys point to a value of an empty hash. The fourth key
 Then, do the same for the empty hash that is the value of the `:capulet` key.
 This time, your keys are:
 
-* `:patriarch`
-* `:matriarch`
-* `:heroine`
-* `:heroine_friends`
+- `:patriarch`
+- `:matriarch`
+- `:heroine`
+- `:heroine_friends`
 
 The values are the same as described above. Once you get this test passing, you
 should have a hash that looks like this:
@@ -188,26 +188,26 @@ In `lib/third_challenge`, you'll find the hash that you built in the previous
 challenge. Fill out the empty hashes that are the values of the `:patriarch`,
 `:matriarch`, and `:hero`/`:heroine` keys with the following key/value pairs.
 
-* The Montague `:patriarch` has
-  * a `:name` of "Lord Montague" and
-  * an `:age` of "53".
-* The Montague `:matriarch` has
-  * a `:name` of "Lady Montague" and
-  * an `:age` of "54".
-* The Montague `:hero` has
-  * a `:name` of "Romeo",
-  * an `:age` of "15", and
-  * a `:status` of "alive".
-* The Capulet `:patriarch` has
-  * a `:name` of "Lord Capulet" and
-  * an `:age` of "50".
-* The Capulet `:matriarch` has
-  * a `:name` of "Lady Capulet" and
-  * an `:age` of "51".
-* The Capulet `:heroine` has
-  * a `:name` of "Juliet",
-  * an `:age` of "15", and
-  * a `:status` of "alive".
+- The Montague `:patriarch` has
+  - a `:name` of "Lord Montague" and
+  - an `:age` of "53".
+- The Montague `:matriarch` has
+  - a `:name` of "Lady Montague" and
+  - an `:age` of "54".
+- The Montague `:hero` has
+  - a `:name` of "Romeo",
+  - an `:age` of "15", and
+  - a `:status` of "alive".
+- The Capulet `:patriarch` has
+  - a `:name` of "Lord Capulet" and
+  - an `:age` of "50".
+- The Capulet `:matriarch` has
+  - a `:name` of "Lady Capulet" and
+  - an `:age` of "51".
+- The Capulet `:heroine` has
+  - a `:name` of "Juliet",
+  - an `:age` of "15", and
+  - a `:status` of "alive".
 
 Once you get this test passing, you should have the following hash:
 
@@ -231,7 +231,7 @@ epic_tragedy = {
 We're almost done. Our hero and heroine have two friends each. That constitutes
 a collection of friends. Since they each have a collection of friends, it makes
 sense to collect those friends in an array. Since each friend will have his or
-her own attributes (name, age, etc), our array will be *an array of hashes*!
+her own attributes (name, age, etc), our array will be _an array of hashes_!
 
 ### Code Along Challenge IV: Nesting Friends and Attributes
 
@@ -249,40 +249,40 @@ pairs describing these friends.
 The hero's two friends are Benvolio and Mercutio. So, the `:hero_friends` array
 will contain two hashes. Each of these two hashes have the following three keys:
 
-* `:name`
-* `:age`
-* `:attitude`
+- `:name`
+- `:age`
+- `:attitude`
 
 The hero's first friend has
 
-* a name of "Benvolio",
-* an age of "17", and
-* an attitude of "worried".
+- a name of "Benvolio",
+- an age of "17", and
+- an attitude of "worried".
 
 The hero's second friend has
 
-* a name of "Mercutio",
-* an age of "18", and
-* an attitude of "hot-headed".
+- a name of "Mercutio",
+- an age of "18", and
+- an attitude of "hot-headed".
 
 The heroine's two friends are Steven and Nurse. So, the `:heroine_friends` array
 will contain two hashes. Each of these two hashes have the following three keys:
 
-* `:name`
-* `:age`
-* `:attitude`
+- `:name`
+- `:age`
+- `:attitude`
 
 The heroine's first friend has
 
-* a name of "Steven",
-* an age of "30", and
-* an attitude of "confused".
+- a name of "Steven",
+- an age of "30", and
+- an attitude of "confused".
 
 The heroine's second friend has
 
-* a name of "Nurse",
-* an age of "44", and
-* an attitude of "worried".
+- a name of "Nurse",
+- an age of "44", and
+- an attitude of "worried".
 
 Once you get this test passing, your hash should look like this:
 
